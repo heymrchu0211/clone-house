@@ -1,6 +1,15 @@
+@import 'base/fonts';
+
 p {
   color: black;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 1;
-  transition: .2s;
+  transition: 0.3s;
+  width: 112rem;
+  height: 30rem;
+  display: block;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
 }
