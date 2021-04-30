@@ -1,19 +1,8 @@
 @import 'constants/colors';
+@import 'constants/typography';
 
 @import 'base/fonts';
 @import 'base/normalize';
 @import 'base/reset';
 
-p {
-  color: black;
-  font-size: 1.7rem;
-  line-height: 1;
-  transition: 0.3s;
-  width: 112rem;
-  height: 30rem;
-  display: block;
-}
-
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import 'layouts/grids';
